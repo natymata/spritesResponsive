@@ -1,0 +1,68 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.cf:before, .cf:after {
+	content: '';
+	display: table;
+}
+
+.cf:after {
+	clear: both;
+}
+
+.ir {
+  display: block;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.sprite {
+	background: url('../images/sprite1Social@1x.png') 0 0 no-repeat;
+}
+
+ul {
+	width: 360px;
+	margin: 0 auto;
+	padding-top: 36px;
+}
+
+li {
+	width: 64px;
+	line-height: 64px;
+	float: left;
+	margin-left: 10px;
+}
+
+li:first-child {
+	margin-left: 0;
+}
+
+.facebook {
+	background-position: 0px 0px;	
+}
+
+.linkedin {
+	background-position: 0px -74px;
+}
+
+.google {
+	background-position: 0px -148px;
+}
+
+.twitter {
+	background-position: 0px -222px;
+}
+
+.youtube{
+	background-position: 0px -296px;
+}
+
+@media screen and (min-resolution: 2dppx) {
+	.sprite {
+		background-image: url('../images/sprite1Social@2x.png');
+        background-size: 64px 64px;
+	}
+}
